@@ -1,7 +1,7 @@
 # Prog3 A1 – Sistema de Registro e Autenticação de Usuários
 
-**Nome:** Rafael Luan Schmitz
-**Campus:** UNOESC - São Miguel do Oeste
+- **Nome:** Rafael Luan Schmitz
+- **Campus:** UNOESC - São Miguel do Oeste
 
 ## Descrição
 Este projeto é uma aplicação web simples desenvolvida em PHP puro (usando orientação a objetos) que permite:
