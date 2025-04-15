@@ -1,0 +1,191 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container para formulários e páginas simples */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4285F4;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4285F4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+    color: #4285F4;
+}
+
+/* Estilos para a interface ERP na dashboard */
+.erp-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.erp-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.erp-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.erp-menu a {
+    text-decoration: none;
+    color: #4285F4;
+    font-weight: bold;
+    flex: 1;
+}
+
+.erp-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.erp-box {
+    flex: 1;
+    min-width: 200px;
+    background: #4285F4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Botões padrão */
+.btn {
+    display: inline-block;
+    background: #4285F4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.btn:hover, .btn-link:hover {
+    background: #2a64c9;
+}
+
+/* Botões com link estilizado */
+.btn-link {
+    background: #4285F4;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Corrige botões do tipo <a class="btn"> */
+a.btn, a.btn:visited, a.btn:active {
+    color: white;
+}
+
+a.btn:hover {
+    background-color: #2a64c9;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
